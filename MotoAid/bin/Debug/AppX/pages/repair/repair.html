@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>repairPage</title>
+
+    <link href="/pages/repair/repair.css" rel="stylesheet" />
+    <script src="/pages/repair/repair.js"></script>
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="repairPage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Reparasi</span>
+            </h1>
+        </header>
+        <div class="content" aria-label="Main content" role="main">
+            <div id="menu-container" class="input">
+                <label id="menu-selector-label">Pilih bagian yang bermasalah:</label>
+                <br />
+                <select id="menu-selector" size="5">
+                    <option value="knalpot">1) Knalpot</option>
+                    <option value="mesin">2) Mesin</option>
+                    <option value="suspensi">3) Suspensi</option>
+                    <option value="rem">4) Rem</option>
+                    <option value="transmisi">5) Transmisi</option>
+                </select>
+            </div>
+            <div id="submenu-container" class="input">
+                <div>
+                    <label id="submenu-selector-label">Pilih masalah:</label>
+                    <br />
+                    <select id="submenu-selector" onchange="output.value(event)" size="1" aria-labelledby="submenu-selector-label">
+                        <option value="berasap">Berasap</option>
+                        <option value="ledakan">Mengeluarkan suara ledakan</option>
+                        <option value="berair">Berair</option>
+                    </select>
+                </div>
+            </div>
+            <div id="solution-container">
+                <h2>Penyebab dan solusi masalah:</h2>
+                <div id="solution" class="output"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

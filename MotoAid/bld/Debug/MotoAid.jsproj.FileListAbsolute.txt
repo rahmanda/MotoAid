@@ -1,0 +1,18 @@
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bin\Debug\resources.pri
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bin\Debug\AppxManifest.xml
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bin\Debug\MotoAid.build.appxrecipe
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bld\Debug\priconfig.xml
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bld\Debug\layout.resfiles
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bld\Debug\resources.resfiles
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bld\Debug\pri.resfiles
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bld\Debug\LanguageQualifiers.txt
+C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bld\Debug\ProjectArchitectures.txt
+E:\Projects\App\MotoAid\MotoAid\bin\Debug\resources.pri
+E:\Projects\App\MotoAid\MotoAid\bin\Debug\AppxManifest.xml
+E:\Projects\App\MotoAid\MotoAid\bin\Debug\MotoAid.build.appxrecipe
+E:\Projects\App\MotoAid\MotoAid\bld\Debug\priconfig.xml
+E:\Projects\App\MotoAid\MotoAid\bld\Debug\layout.resfiles
+E:\Projects\App\MotoAid\MotoAid\bld\Debug\resources.resfiles
+E:\Projects\App\MotoAid\MotoAid\bld\Debug\pri.resfiles
+E:\Projects\App\MotoAid\MotoAid\bld\Debug\LanguageQualifiers.txt
+E:\Projects\App\MotoAid\MotoAid\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,84 @@
+﻿.repairPage .content {
+    margin-bottom: 60px;
+    margin-left: 45px;
+    margin-right: 115px;
+    margin-top: 150px;
+    -ms-grid-columns: 200px auto;
+    -ms-grid-rows: 1fr 1fr;
+    display: -ms-grid;
+    -ms-grid-row-align: start;
+}
+
+    .repairPage .content #menu-container {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        margin-bottom: 10px;
+    }
+
+    .repairPage .content #submenu-container {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+
+    .repairPage .content #solution-container {
+        margin-left: 50px;
+        height: 100%;
+        -ms-grid-row-span: 2;
+        -ms-grid-column: 2;
+    }
+
+    .repairPage .content #menu-container #menu-selector {
+        width: 200px;
+    }
+
+    .repairPage .content #submenu-container #submenu-selector {
+        width: 200px;
+    }
+
+@media screen and (-ms-view-state: snapped) {
+    ul {
+        padding-left: 15px;
+    }
+    .repairPage .content {
+        margin-right: 45px;
+        -ms-grid-rows: auto 50px 30px 1fr;
+        display: -ms-grid;
+    }
+
+    .repairPage .content #menu-container {
+        -ms-grid-row: 1;
+        margin-bottom: 10px;
+    }
+
+    .repairPage .content #submenu-container {
+        -ms-grid-row: 2;
+    }
+
+    .repairPage .content #solution-container {
+        margin-left: -200px;
+        -ms-grid-row: 4;
+        height: 250px;
+        overflow-y:auto;
+    }
+
+    .repairPage .content #menu-container #menu-selector {
+        width: 200px;
+    }
+
+    .repairPage .content #submenu-container #submenu-selector {
+        width: 200px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .repairPage .content article {
+        margin-left: 100px;
+    }
+
+        .repairPage .content article .specs {
+            -ms-grid-row: 2;
+            -ms-grid-column: 1;
+            margin-left: 0px;
+            margin-top: 40px;
+        }
+}

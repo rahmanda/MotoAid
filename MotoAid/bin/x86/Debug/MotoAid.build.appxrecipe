@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RAHMANDA-PC</Machine>
+    <WindowsUser>Rahmanda</WindowsUser>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\itemDetail\itemDetail.css">
+      <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\groupDetail\groupDetail.css">
+      <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\groupedItems\groupedItems.css">
+      <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\repair\repair.css">
+      <PackagePath>pages\repair\repair.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\startPage\startPage.css">
+      <PackagePath>pages\startPage\startPage.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\data\data.txt">
+      <PackagePath>data\data.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\beat_150_C.jpg">
+      <PackagePath>images\honda\beat_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\beat_600_C.jpg">
+      <PackagePath>images\honda\beat_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\cbr_150_C.jpg">
+      <PackagePath>images\honda\cbr_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\cbr_600_C.jpg">
+      <PackagePath>images\honda\cbr_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\cs1_150_C.jpg">
+      <PackagePath>images\honda\cs1_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\cs1_600_C.jpg">
+      <PackagePath>images\honda\cs1_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\honda_group.jpg">
+      <PackagePath>images\honda\honda_group.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\megapro_150_C.jpg">
+      <PackagePath>images\honda\megapro_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\megapro_600_C.jpg">
+      <PackagePath>images\honda\megapro_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\revo_150_C.jpg">
+      <PackagePath>images\honda\revo_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\revo_600_C.jpg">
+      <PackagePath>images\honda\revo_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\scoopy_150_C.jpg">
+      <PackagePath>images\honda\scoopy_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\scoopy_600_C.jpg">
+      <PackagePath>images\honda\scoopy_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\spacy_150_C.jpg">
+      <PackagePath>images\honda\spacy_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\spacy_600_C.jpg">
+      <PackagePath>images\honda\spacy_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\supra_150_C.jpg">
+      <PackagePath>images\honda\supra_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\supra_600_C.jpg">
+      <PackagePath>images\honda\supra_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\vario_150_C.jpg">
+      <PackagePath>images\honda\vario_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\vario_600_C.jpg">
+      <PackagePath>images\honda\vario_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\verza_150_C.jpg">
+      <PackagePath>images\honda\verza_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\verza_600_C.jpg">
+      <PackagePath>images\honda\verza_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\hayate_150_C.jpg">
+      <PackagePath>images\suzuki\hayate_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\hayate_600_C.jpg">
+      <PackagePath>images\suzuki\hayate_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\inazuma_150_C.jpg">
+      <PackagePath>images\suzuki\inazuma_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\inazuma_600_C.jpg">
+      <PackagePath>images\suzuki\inazuma_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\lets_150_C.jpg">
+      <PackagePath>images\suzuki\lets_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\lets_600_C.jpg">
+      <PackagePath>images\suzuki\lets_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\nex_150_C.jpg">
+      <PackagePath>images\suzuki\nex_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\nex_600_C.jpg">
+      <PackagePath>images\suzuki\nex_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\satria_150_C.jpg">
+      <PackagePath>images\suzuki\satria_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\satria_600_C.jpg">
+      <PackagePath>images\suzuki\satria_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\shogun_150_C.jpg">
+      <PackagePath>images\suzuki\shogun_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\shogun_600_C.jpg">
+      <PackagePath>images\suzuki\shogun_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\skydrive_150_C.jpg">
+      <PackagePath>images\suzuki\skydrive_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\skydrive_600_C.jpg">
+      <PackagePath>images\suzuki\skydrive_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\smash_150_C.jpg">
+      <PackagePath>images\suzuki\smash_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\smash_600_C.jpg">
+      <PackagePath>images\suzuki\smash_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\suzuki_group.jpg">
+      <PackagePath>images\suzuki\suzuki_group.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\thunder_150_C.jpg">
+      <PackagePath>images\suzuki\thunder_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\thunder_600_C.jpg">
+      <PackagePath>images\suzuki\thunder_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\byson_150_C.jpg">
+      <PackagePath>images\yamaha\byson_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\byson_600_C.jpg">
+      <PackagePath>images\yamaha\byson_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\force_150_C.jpg">
+      <PackagePath>images\yamaha\force_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\force_600_C.jpg">
+      <PackagePath>images\yamaha\force_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\jupitermx_150_C.jpg">
+      <PackagePath>images\yamaha\jupitermx_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\jupitermx_600_C.jpg">
+      <PackagePath>images\yamaha\jupitermx_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\jupiterz1_150_C.jpg">
+      <PackagePath>images\yamaha\jupiterz1_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\jupiterz1_600_C.jpg">
+      <PackagePath>images\yamaha\jupiterz1_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\mioj_150_C.jpg">
+      <PackagePath>images\yamaha\mioj_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\mioj_600_C.jpg">
+      <PackagePath>images\yamaha\mioj_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\scorpio_150_C.jpg">
+      <PackagePath>images\yamaha\scorpio_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\scorpio_600_C.jpg">
+      <PackagePath>images\yamaha\scorpio_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\soulgt_150_C.jpg">
+      <PackagePath>images\yamaha\soulgt_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\soulgt_600_C.jpg">
+      <PackagePath>images\yamaha\soulgt_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\vegazr_150_C.jpg">
+      <PackagePath>images\yamaha\vegazr_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\vegazr_600_C.jpg">
+      <PackagePath>images\yamaha\vegazr_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\vixion_150_C.jpg">
+      <PackagePath>images\yamaha\vixion_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\vixion_600_C.jpg">
+      <PackagePath>images\yamaha\vixion_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\xride_150_C.jpg">
+      <PackagePath>images\yamaha\xride_150_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\xride_600_C.jpg">
+      <PackagePath>images\yamaha\xride_600_C.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\yamaha_group.jpg">
+      <PackagePath>images\yamaha\yamaha_group.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\honda_group_detail.png">
+      <PackagePath>images\honda\honda_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\honda\honda_group_header.png">
+      <PackagePath>images\honda\honda_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\shooter_150_C.png">
+      <PackagePath>images\suzuki\shooter_150_C.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\shooter_600_C.png">
+      <PackagePath>images\suzuki\shooter_600_C.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\suzuki_group_detail.png">
+      <PackagePath>images\suzuki\suzuki_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\suzuki\suzuki_group_header.png">
+      <PackagePath>images\suzuki\suzuki_group_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\WideLogo.png">
+      <PackagePath>images\WideLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\images\yamaha\yamaha_group_detail.png">
+      <PackagePath>images\yamaha\yamaha_group_detail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\itemDetail\itemDetail.js">
+      <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\groupDetail\groupDetail.js">
+      <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\groupedItems\groupedItems.js">
+      <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\repair\repair.js">
+      <PackagePath>pages\repair\repair.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\startPage\startPage.js">
+      <PackagePath>pages\startPage\startPage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\itemDetail\itemDetail.html">
+      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\groupDetail\groupDetail.html">
+      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\groupedItems\groupedItems.html">
+      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\repair\repair.html">
+      <PackagePath>pages\repair\repair.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\pages\startPage\startPage.html">
+      <PackagePath>pages\startPage\startPage.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rahmanda\Documents\Visual Studio 2012\Projects\MotoAid\MotoAid\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

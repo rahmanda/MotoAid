@@ -1,0 +1,261 @@
+﻿.startpage {
+    overflow-x: auto;
+}
+h1 .pagetitle {
+    position: absolute;
+}
+
+    .startpage .content {
+        -ms-grid-columns: auto 100px auto;
+        -ms-grid-rows: 50px auto;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 133px;
+        display: -ms-grid;
+        height: 100%;
+        width: 100%;
+    }
+
+.header {
+    -ms-grid-row: 1;
+}
+
+.desc {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.value {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 40px;
+}
+
+#header-profile {
+    -ms-grid-column: 1;
+}
+
+#header-menu {
+    -ms-grid-column: 3;
+}
+
+.profile {
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-columns: auto 10px auto;
+    display: -ms-grid;
+}
+
+    .profile #user-profile {
+        -ms-grid-column: 1;
+        width: 480px;
+        -ms-grid-rows: auto 50px;
+        display: -ms-grid;
+        color: black;
+    }
+
+        .profile #user-profile .item-image {
+            -ms-grid-row-span: 2;
+        }
+
+            .profile #user-profile .item-image:hover {
+                outline: solid rgba(255,255,255,0.5);
+            }
+
+            .profile #user-profile .item-image:active {
+                transform: scale(0.97);
+            }
+
+        .profile #user-profile #item-overlay {
+            -ms-grid-row: 1;
+            padding-top: 10px;
+            padding-left: 10px;
+            text-align: left;
+        }
+
+    .profile .menu-item {
+        -ms-grid-column: 3;
+        -ms-grid-rows: 175px 10px 175px;
+        -ms-grid-columns: 235px 10px 235px;
+        display: -ms-grid;
+    }
+
+        .profile .menu-item #transmission {
+            -ms-grid-row: 1;
+            -ms-grid-column: 1;
+            background-color: rgb(31, 222, 41);
+        }
+
+        .profile .menu-item #cylinder {
+            -ms-grid-row: 3;
+            -ms-grid-column: 1;
+            background-color: rgb(34, 208, 176);
+        }
+
+        .profile .menu-item #max-power {
+            -ms-grid-row: 1;
+            -ms-grid-column: 3;
+            background-color: rgb(255, 106, 0);
+        }
+
+        .profile .menu-item #max-torsion {
+            -ms-grid-row: 3;
+            -ms-grid-column: 3;
+            background-color: rgb(203, 32, 32);
+        }
+
+.menu {
+    -ms-grid-column: 3;
+    -ms-grid-row: 2;
+    -ms-grid-rows: 175px 10px 175px;
+    -ms-grid-columns: 235px;
+    display: -ms-grid;
+}
+
+    .menu .menu-item {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .menu #repair {
+        -ms-grid-row: 1;
+        background-color: rgb(241, 224, 32);
+    }
+
+        .menu #repair:hover, .menu #change-ride:hover {
+            outline: solid rgba(255,255,255,0.5);
+        }
+
+        .menu #repair:active, .menu #change-ride:active {
+            transform: scale(0.97);
+        }
+
+    .menu #change-ride {
+        -ms-grid-row: 3;
+        background-color: rgb(215, 42, 164);
+    }
+
+@media screen and (-ms-view-state: snapped) {
+    .startpage {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+        .startpage .content {
+            -ms-grid-columns: 300px auto;
+            -ms-grid-rows: 220px auto;
+            margin-left: 20px;
+            display: -ms-grid;
+            height: 100%;
+            width: 100%;
+        }
+
+    .header {
+        visibility: hidden;
+    }
+
+    .profile {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+    }
+
+
+
+        .profile #user-profile .item-image {
+            width: 280px;
+        }
+
+        .profile .menu-item {
+            visibility: hidden;
+        }
+
+
+    .menu {
+        -ms-grid-column: 1;
+        -ms-grid-row: 2;
+        -ms-grid-columns: 280px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .startpage {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .startpage .content {
+        -ms-grid-columns: auto;
+        -ms-grid-rows: 50px auto 50px 50px auto;
+        display: -ms-grid;
+        height: 100%;
+        width: 100%;
+    }
+
+    #header-profile {
+        -ms-grid-row: 1;
+    }
+
+    .profile {
+        -ms-grid-row: 2;
+        -ms-grid-rows: auto 10px auto;
+        display: -ms-grid;
+    }
+
+    .profile #user-profile {
+            -ms-grid-row: 1;
+    }
+
+    .profile .menu-item {
+        -ms-grid-column: 1;
+        -ms-grid-row: 3;
+        display: -ms-grid;
+    }
+
+        .profile .menu-item #transmission {
+            -ms-grid-row: 1;
+            -ms-grid-column: 1;
+            background-color: rgb(31, 222, 41);
+        }
+
+        .profile .menu-item #cylinder {
+            -ms-grid-row: 1;
+            -ms-grid-column: 3;
+            background-color: rgb(34, 208, 176);
+        }
+
+        .profile .menu-item #max-power {
+            -ms-grid-row: 3;
+            -ms-grid-column: 1;
+            background-color: rgb(255, 106, 0);
+        }
+
+        .profile .menu-item #max-torsion {
+            -ms-grid-row: 3;
+            -ms-grid-column: 3;
+            background-color: rgb(203, 32, 32);
+        }
+
+    #header-menu {
+        -ms-grid-column: 1;
+        -ms-grid-row: 4;
+    }
+
+    .menu {
+        -ms-grid-column: 1;
+        -ms-grid-row: 5;
+        -ms-grid-columns: 235px 10px 235px;
+        -ms-grid-rows: 175px;
+        display: -ms-grid;
+    }
+
+    .menu #repair {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        background-color: rgb(241, 224, 32);
+    }
+
+    .menu #change-ride {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+    }
+}

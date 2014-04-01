@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>startPage</title>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/startPage/startPage.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <script src="/pages/startPage/startPage.js"></script>
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="startpage fragment">
+        <header aria-label="Header content" role="banner">
+            <!--<button class="win-backbutton" aria-label="Back" disabled type="button"></button>-->
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">MotoAid</span>
+            </h1>
+        </header>
+        <div class="content">
+            <div class="header" id="header-profile">
+                <h2>Profil</h2>
+            </div>
+            <div class="profile">
+                <div id="user-profile">
+                    <img class="item-image" src="/images/honda/cbr_600_C.jpg"/>
+                    <div id="item-overlay">Honda CS1</div>
+                </div>
+                <div class="menu-item">
+                    <div id="transmission"><div class="desc">Transmisi</div><div class="value"></div></div>
+                    <div id="cylinder"><div class="desc">Silinder</div><div class="value"></div></div>
+                    <div id="max-power"><div class="desc">Daya Maksimum</div><div class="value"></div></div>
+                    <div id="max-torsion"><div class="desc">Torsi Maksimum</div><div class="value"></div></div>
+                </div>
+            </div>
+            <div class="header" id="header-menu">
+                <h2>Menu</h2>
+            </div>
+            <div class="menu">
+                <div id="repair"><div class="menu-item">Reparasi</div></div>
+                <div id="change-ride"><div class="menu-item">Ganti Motor</div></div>
+            </div>
+        </div>
+        <div id="appbar" data-win-control="WinJS.UI.AppBar">
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'remind', label:'Reminder', icon:'clock', section: 'selection'}"></button>
+        </div>
+    </div>
+</body>
+</html>

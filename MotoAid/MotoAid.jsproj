@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>c15b9cc4-b1ea-4fbf-9383-149dfb40859b</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>id-id</DefaultLanguage>
+    <PackageCertificateKeyFile>MotoAid_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>F2E54D7B23B113A857C0E24618766D35BCF2112D</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="about\about.css" />
+    <Content Include="about\about.html" />
+    <Content Include="about\about.js" />
+    <Content Include="css\default.css" />
+    <Content Include="data\data.txt" />
+    <Content Include="images\honda\beat_150_C.jpg" />
+    <Content Include="images\honda\beat_600_C.jpg" />
+    <Content Include="images\honda\cbr_150_C.jpg" />
+    <Content Include="images\honda\cbr_600_C.jpg" />
+    <Content Include="images\honda\cs1_150_C.jpg" />
+    <Content Include="images\honda\cs1_600_C.jpg" />
+    <Content Include="images\honda\honda_group.jpg" />
+    <Content Include="images\honda\honda_group_detail.png" />
+    <Content Include="images\honda\honda_group_header.png" />
+    <Content Include="images\honda\megapro_150_C.jpg" />
+    <Content Include="images\honda\megapro_600_C.jpg" />
+    <Content Include="images\honda\revo_150_C.jpg" />
+    <Content Include="images\honda\revo_600_C.jpg" />
+    <Content Include="images\honda\scoopy_150_C.jpg" />
+    <Content Include="images\honda\scoopy_600_C.jpg" />
+    <Content Include="images\honda\spacy_150_C.jpg" />
+    <Content Include="images\honda\spacy_600_C.jpg" />
+    <Content Include="images\honda\supra_150_C.jpg" />
+    <Content Include="images\honda\supra_600_C.jpg" />
+    <Content Include="images\honda\vario_150_C.jpg" />
+    <Content Include="images\honda\vario_600_C.jpg" />
+    <Content Include="images\honda\verza_150_C.jpg" />
+    <Content Include="images\honda\verza_600_C.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\suzuki\hayate_150_C.jpg" />
+    <Content Include="images\suzuki\hayate_600_C.jpg" />
+    <Content Include="images\suzuki\inazuma_150_C.jpg" />
+    <Content Include="images\suzuki\inazuma_600_C.jpg" />
+    <Content Include="images\suzuki\lets_150_C.jpg" />
+    <Content Include="images\suzuki\lets_600_C.jpg" />
+    <Content Include="images\suzuki\nex_150_C.jpg" />
+    <Content Include="images\suzuki\nex_600_C.jpg" />
+    <Content Include="images\suzuki\satria_150_C.jpg" />
+    <Content Include="images\suzuki\satria_600_C.jpg" />
+    <Content Include="images\suzuki\shogun_150_C.jpg" />
+    <Content Include="images\suzuki\shogun_600_C.jpg" />
+    <Content Include="images\suzuki\shooter_150_C.png" />
+    <Content Include="images\suzuki\shooter_600_C.png" />
+    <Content Include="images\suzuki\skydrive_150_C.jpg" />
+    <Content Include="images\suzuki\skydrive_600_C.jpg" />
+    <Content Include="images\suzuki\smash_150_C.jpg" />
+    <Content Include="images\suzuki\smash_600_C.jpg" />
+    <Content Include="images\suzuki\suzuki_group.jpg" />
+    <Content Include="images\suzuki\suzuki_group_detail.png" />
+    <Content Include="images\suzuki\suzuki_group_header.png" />
+    <Content Include="images\suzuki\thunder_150_C.jpg" />
+    <Content Include="images\suzuki\thunder_600_C.jpg" />
+    <Content Include="images\WideLogo.png" />
+    <Content Include="images\yamaha\byson_150_C.jpg" />
+    <Content Include="images\yamaha\byson_600_C.jpg" />
+    <Content Include="images\yamaha\force_150_C.jpg" />
+    <Content Include="images\yamaha\force_600_C.jpg" />
+    <Content Include="images\yamaha\jupitermx_150_C.jpg" />
+    <Content Include="images\yamaha\jupitermx_600_C.jpg" />
+    <Content Include="images\yamaha\jupiterz1_150_C.jpg" />
+    <Content Include="images\yamaha\jupiterz1_600_C.jpg" />
+    <Content Include="images\yamaha\mioj_150_C.jpg" />
+    <Content Include="images\yamaha\mioj_600_C.jpg" />
+    <Content Include="images\yamaha\scorpio_150_C.jpg" />
+    <Content Include="images\yamaha\scorpio_600_C.jpg" />
+    <Content Include="images\yamaha\soulgt_150_C.jpg" />
+    <Content Include="images\yamaha\soulgt_600_C.jpg" />
+    <Content Include="images\yamaha\vegazr_150_C.jpg" />
+    <Content Include="images\yamaha\vegazr_600_C.jpg" />
+    <Content Include="images\yamaha\vixion_150_C.jpg" />
+    <Content Include="images\yamaha\vixion_600_C.jpg" />
+    <Content Include="images\yamaha\xride_150_C.jpg" />
+    <Content Include="images\yamaha\xride_600_C.jpg" />
+    <Content Include="images\yamaha\yamaha_group.jpg" />
+    <Content Include="images\yamaha\yamaha_group_detail.png" />
+    <Content Include="js\data.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\navigator.js" />
+    <Content Include="pages\startPage\startPage.css" />
+    <Content Include="pages\startPage\startPage.html" />
+    <Content Include="pages\startPage\startPage.js" />
+    <Content Include="search\search.css" />
+    <Content Include="search\search.html" />
+    <Content Include="search\search.js" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="MotoAid_StoreKey.pfx" />
+    <Content Include="pages\itemDetail\itemDetail.css" />
+    <Content Include="pages\itemDetail\itemDetail.html" />
+    <Content Include="pages\itemDetail\itemDetail.js" />
+    <Content Include="pages\groupDetail\groupDetail.css" />
+    <Content Include="pages\groupDetail\groupDetail.html" />
+    <Content Include="pages\groupDetail\groupDetail.js" />
+    <Content Include="pages\groupedItems\groupedItems.css" />
+    <Content Include="pages\groupedItems\groupedItems.html" />
+    <Content Include="pages\groupedItems\groupedItems.js" />
+    <Content Include="default.html" />
+    <Content Include="pages\repair\repair.css" />
+    <Content Include="pages\repair\repair.html" />
+    <Content Include="pages\repair\repair.js" />
+    <None Include="MotoAid_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

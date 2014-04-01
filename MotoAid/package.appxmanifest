@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="28366GilangHarinanda.MotoAid" Version="1.0.0.20" Publisher="CN=7BF75CDB-C969-4DA8-9453-74F241D37914" />
+  <Properties>
+    <DisplayName>MotoAid</DisplayName>
+    <PublisherDisplayName>Gilang Harinanda</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="MotoAid" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="MotoAid" ForegroundText="light" BackgroundColor="#1a8895" ToastCapable="true">
+        <DefaultTile ShowName="allLogos" WideLogo="images\WideLogo.png" ShortName="MotoAid" />
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="#1a8895" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
+    </Application>
+  </Applications>
+</Package>
